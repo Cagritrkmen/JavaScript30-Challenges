@@ -13,7 +13,7 @@ const ranges = player.querySelectorAll(".player__slider");
 function togglePlay() {
     if(video.paused){
         video.play();
-        toggle.textContent ='❚ ❚'
+        toggle.textContent ='❚  ❚'
     }
     else {
         video.pause();
